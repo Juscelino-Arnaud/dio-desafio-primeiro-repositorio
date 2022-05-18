@@ -1,0 +1,33 @@
+## Instruções para uso do GitHub
+
+
+[h1] 1. Criando um novo Repositório [/h1]
+  - Clique no +, próximo ao menu Perfil, e em “New repository”;
+  - Indique um nome em “Repository name”;
+  - Preencha uma descrição do repositório em “Description”;
+  - Selecione a visbilidade (Pública ou Privada);
+  - Defina o que você deseja incluir: “README file”, “gitignore”, ou “license” (para o básico selecione apenas o Readme);
+  - Clique em criar.
+
+* É possível editar seu repositório pela própria ferramente do GitHub, basta clicar no “lápis”.
+** Sempre que uma alteração for realizada, se faz necessário clicar em Commit Changes ao final da página para que a alteração seja salva.
+
+ [h1]2.Importando o Repositório para sua máquina [/h1]
+  - Clique em Code > Clone, e selecione o código indicado para que seja copiado;
+  - Abra a pasta do seu computador em que pretende trabalhar nesse código, clique com o botão direito e selecione “Git Bash Here”;
+  - Ao abrir o terminal, digite “git clone” e cole o código copiado no GitHub;
+* Após esse comando será criada uma subpasta, no local em que você selecionou, já com os arquivos do repositório criado no GitHub.
+  - Para que possa começar a modificar o seu repositório na máquina local, execute: cd ‘endereço da sua pasta local’;
+  - A partir daí iniciará a “(main)”; confirme através do comando “git status”;
+
+ [h1]3.Exportando as alterações para o Repositório do GitHub [/h1]
+
+*Os arquivos criados em sua pasta local poderão ser enviados ao GitHub, mas é necessário utilizar o Git Bash para que as alterações sejam reconhecidas;
+
+  - Para confirmar o reconhecimento das alterações pelo Git, utilize o comando “git status”; Em vermelho o git destacará essas inclusões/alterações;
+  - Para que essas alterações sejam incluídas ao seu repositório local, execute: “git add .” ou “git add -A”;
+  - Utilize novamente o “git status”; agora em verde o git destacará essas inclusões/alterações;
+  - Para enviá-las ao GitHub, execute “git commit – m ‘um comentário explicando a alteração que está sendo enviada”;
+  - Ao executar o “git status” novamente, será informado que uma alteração local está disponível para ser importada;
+  - Execute o “git push origin main”; todos os arquivos serão enviados;
+  - Atualize a página do seu repositório no GitHub e poderá acessar os arquivos enviados.
