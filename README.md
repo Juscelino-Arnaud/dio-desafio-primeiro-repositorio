@@ -10,4 +10,4 @@ Repositório criado para testar o aprendizado com Git e GitHub.
 
 
 *Teste de modificação no arquivo README na máquina local,
-para possível atualização no repesitório GitHub (12:31h): 
+para possível atualização no repositório GitHub (12:31h): atualização confirmada (12:34)
