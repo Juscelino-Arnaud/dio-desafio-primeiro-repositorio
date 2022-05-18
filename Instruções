@@ -1,7 +1,7 @@
-# Instruções para uso do GitHub
+ Instruções para uso do GitHub
 
 
-<h2> 1. Criando um novo Repositório </h2>
+1. Criando um novo Repositório
   - Clique no +, próximo ao menu Perfil, e em “New repository”;
   - Indique um nome em “Repository name”;
   - Preencha uma descrição do repositório em “Description”;
@@ -12,7 +12,7 @@
 * É possível editar seu repositório pela própria ferramente do GitHub, basta clicar no “lápis”.
 ** Sempre que uma alteração for realizada, se faz necessário clicar em Commit Changes ao final da página para que a alteração seja salva.
 
- <h2>2.Importando o Repositório para sua máquina </h2>
+2.Importando o Repositório para sua máquina
   - Clique em Code > Clone, e selecione o código indicado para que seja copiado;
   - Abra a pasta do seu computador em que pretende trabalhar nesse código, clique com o botão direito e selecione “Git Bash Here”;
   - Ao abrir o terminal, digite “git clone” e cole o código copiado no GitHub;
@@ -20,7 +20,7 @@
   - Para que possa começar a modificar o seu repositório na máquina local, execute: cd ‘endereço da sua pasta local’;
   - A partir daí iniciará a “(main)”; confirme através do comando “git status”;
 
-  <h2>3.Exportando as alterações para o Repositório do GitHub </h2>
+3.Exportando as alterações para o Repositório do GitHub
 
 *Os arquivos criados em sua pasta local poderão ser enviados ao GitHub, mas é necessário utilizar o Git Bash para que as alterações sejam reconhecidas;
 
